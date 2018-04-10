@@ -1,0 +1,27 @@
+{
+  "name": "ClayGL Triangle",
+  "version": "1.0.0",
+  "description": "Minimal modular examples of ClayGL",
+  "scripts": {
+    "dev": "node node_modules/webpack-cli/bin/webpack.js --mode development -w --devtool eval-cheap-module-source-map",
+    "build": "node node_modules/webpack-cli/bin/webpack.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pissang/claygl-module-examples.git"
+  },
+  "keywords": [
+    "claygl"
+  ],
+  "author": "pissang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pissang/claygl-module-examples/issues"
+  },
+  "homepage": "https://github.com/pissang/claygl-module-examples#readme",
+  "devDependencies": {
+    "claygl": "^1.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.4"
+  }
+}
